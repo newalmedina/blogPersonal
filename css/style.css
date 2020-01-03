@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  background: #e7e7e7;
+  color: 3b8b4b2;
+  text-align: justify; }
+
+.contenedor {
+  width: 80%;
+  max-width: 900px;
+  margin: 0px auto; }
+
+header .color-cabecero {
+  background: #fff; }
+  header .color-cabecero .contenedor .cabecero {
+    width: 100%;
+    height: 100px;
+    padding: 5px 0px 20px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center; }
+    header .color-cabecero .contenedor .cabecero .imagen {
+      width: 15%;
+      height: 100px; }
+      header .color-cabecero .contenedor .cabecero .imagen img {
+        vertical-align: top;
+        width: 50%;
+        border-radius: 50%; }
+    header .color-cabecero .contenedor .cabecero div {
+      width: 85%;
+      margin-top: 20px; }
+      header .color-cabecero .contenedor .cabecero div h2 {
+        font-family: "Baloo", cursive;
+        font-size: 20px;
+        margin: 0px;
+        margin-left: -50px; }
+      header .color-cabecero .contenedor .cabecero div h1 {
+        font-family: "Baloo", cursive;
+        font-size: 35px;
+        color: #e45904;
+        margin: 0px;
+        margin-left: -50px; }
+header .menu-color {
+  background: #e45904;
+  height: 200px; }
+  header .menu-color .menu {
+    padding-top: 15px; }
+    header .menu-color .menu a {
+      text-decoration: none;
+      color: #fff;
+      margin-right: 30px;
+      font-size: 18px; }
+      header .menu-color .menu a:hover {
+        text-decoration: underline;
+        color: rgba(255, 255, 255, 0.5); }
+
+.contenedor .informacion-personal {
+  background: blue;
+  margin-top: -130px;
+  overflow: visible;
+  display: flex; }
+  .contenedor .informacion-personal .img-personal {
+    width: 30%;
+    padding: 20px; }
+    .contenedor .informacion-personal .img-personal img {
+      width: 100%;
+      vertical-align: top; }
+  .contenedor .informacion-personal .informacion-personal-texto {
+    width: 70%;
+    padding-right: 30px;
+    color: #fff;
+    color: #fff;
+    font-size: 14px; }
+    .contenedor .informacion-personal .informacion-personal-texto .formulario input[type="text"],
+    .contenedor .informacion-personal .informacion-personal-texto .formulario input[type="email"] {
+      width: 40%;
+      margin-bottom: 10px;
+      height: 25px;
+      margin-right: 20px;
+      font-weight: italic;
+      color: #e45904; }
+      .contenedor .informacion-personal .informacion-personal-texto .formulario input[type="text"]:focus,
+      .contenedor .informacion-personal .informacion-personal-texto .formulario input[type="email"]:focus {
+        border: 2px solid #f0bc9d;
+        color: #000; }
+    .contenedor .informacion-personal .informacion-personal-texto .formulario input[type="submit"] {
+      width: 30%;
+      height: 30px;
+      margin-top: 5px;
+      background: #e45904;
+      color: #fff;
+      border-box: none; }
+      .contenedor .informacion-personal .informacion-personal-texto .formulario input[type="submit"]:hover {
+        background: rgba(228, 89, 4, 0.7); }
+.contenedor .main {
+  background: #fff;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .contenedor .main article {
+    width: 30%;
+    padding-left: 25px;
+    margin: 0px;
+    text-align: center;
+    text-align: justify; }
+  .contenedor .main aside {
+    width: 30%; }
+    .contenedor .main aside h3 {
+      margin: 0px;
+      text-align: center;
+      margin-bottom: 20px; }
+    .contenedor .main aside .redes-sociales {
+      background: #cfcfcf;
+      margin: 10px 0px;
+      border-radius: 10px;
+      padding: 10px 0px;
+      display: flex;
+      flex-wrap: wrap; }
+    .contenedor .main aside a {
+      color: #fff;
+      text-align: center;
+      width: 30%;
+      display: block;
+      padding: 15px 0;
+      border-radius: 3px;
+      font-size: 30px;
+      margin: 0 20px; }
+    .contenedor .main aside .twiter:hover {
+      background: #667bfa; }
+    .contenedor .main aside .facebook:hover {
+      background: #0021ec; }
+    .contenedor .main aside .youtube:hover {
+      background: red; }
+    .contenedor .main aside .instagram:hover {
+      background: #f5733a; }
+
+footer {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 100%;
+  margin: 0px; }
+  footer p {
+    color: #fff;
+    padding: 10px;
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,81 @@
+
+.contenedor
+	.informacion-personal
+		background: blue 
+		margin-top: -130px
+		overflow: visible
+		display: flex
+		.img-personal
+			width: 30%
+			padding: 20px
+			img
+				width: 100%
+				vertical-align: top
+		.informacion-personal-texto
+			width: 70%
+			padding-right: 30px
+			h3
+			color: $blanco
+			p
+			color: $blanco
+			font-size: 14px
+			.formulario
+				input[type="text"],
+				input[type="email"]
+					width: 40%
+					margin-bottom: 10px
+					height: 25px
+					margin-right: 20px
+					font-weight: italic
+					color: $naranja
+					&:focus
+						border: 2px solid #f0bc9d
+						color: #000
+				input[type="submit"]
+					width: 30%
+					height: 30px
+					margin-top: 5px
+					background: $naranja
+					color: $blanco
+					border-box: none
+					&:hover
+						background: rgba($naranja,0.7)
+	.main
+		background: $blanco
+		padding: 10px 20px
+		display: flex
+		flex-direction: row
+		flex-wrap: wrap
+		justify-content: space-between
+		article
+			width: 30%
+			padding-left: 25px
+			h3
+			margin: 0px
+			text-align: center
+			p
+			text-align: justify
+		aside
+			width: 30%
+			h3
+				margin: 0px
+				text-align: center
+				margin-bottom: 20px
+
+			.redes-sociales
+				background: #cfcfcf
+				margin: 10px 0px
+				border-radius: 10px
+				padding: 10px 0px
+				display: flex
+				justify-content:center
+				flex-wrap: wrap
+			a 
+				color: #fff
+				text-align: center
+				width: 30%
+				display: block
+				padding: 15px 0
+				border-radius: 3px
+				font-size: 30px
+				margin: 0 20px
